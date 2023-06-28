@@ -101,6 +101,84 @@
         ]
       },
       {
+        "id": "seiun",
+        "name": "Seiun",
+        "apps": [
+          {
+            "platform": "android",
+            "language": "kotlin",
+            "url": "https://play.google.com/store/apps/details?id=io.github.akiomik.seiun"
+          }
+        ],
+        "links": {
+          "git": "https://github.com/akiomik/seiun"
+        },
+        "authors": [
+          {
+            "name": "omi.bsky.social",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:j5cxpczcvzajlxhfuq7abivp"
+            }
+          }
+        ]
+      },
+      {
+        "id": "graysky",
+        "name": "Graysky",
+        "apps": [
+          {
+            "platform": "android",
+            "url": "https://play.google.com/apps/testing/dev.mozzius.graysky",
+            "language": "js"
+          },
+          {
+            "platform": "ios",
+            "url": "https://testflight.apple.com/join/8Q1M4gwt",
+            "language": "js"
+          }
+        ],
+        "links": {
+          "web": "https://graysky.app/",
+          "git": "https://github.com/mozzius/graysky",
+          "bsky": "https://bsky.app/profile/did:plc:sq6aa2wa32tiiqrbub64vcja"
+        },
+        "authors": [
+          {
+            "name": "mozzius.dev",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:p2cp5gopk7mgjegy6wadk3ep"
+            }
+          },
+          {
+            "name": "alice.bsky.sh",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:by3jhwdqgbtrcc7q4tkkv3cf"
+            }
+          }
+        ]
+      },
+      {
+        "id": "moot",
+        "name": "Moot",
+        "apps": [
+          {
+            "platform": "ios",
+            "url": "https://testflight.apple.com/join/PWzzz0zi"
+          }
+        ],
+        "links": {
+          "bsky": "https://bsky.app/profile/did:plc:3qom5jgzb6ny6ydnlsnmlhmm"
+        },
+        "authors": [
+          {
+            "name": "Moot",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:3qom5jgzb6ny6ydnlsnmlhmm"
+            }
+          }
+        ]
+      },
+      {
         "id": "laika",
         "name": "Laika",
         "apps": [
@@ -134,5 +212,5 @@
       }
     ]
   },
-  "time": "2023-06-28T07:54:33.515Z"
+  "time": "2023-06-28T08:06:56.849Z"
 }
