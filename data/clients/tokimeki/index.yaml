@@ -1,0 +1,7 @@
+name: Tokimeki
+apps:
+  - platform: web
+    language: js
+    url: https://tokimekibluesky.vercel.app/
+links:
+  git: https://github.com/spuithori/tokimekibluesky

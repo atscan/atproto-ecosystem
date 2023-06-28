@@ -1,16 +1,16 @@
 name: Bluesky
-platforms:
-  - web
-  - ios
-  - android
 apps:
   - platform: web
+    language: js
     url: https://bsky.app/
   - platform: web
+    language: js
     url: https://app.bsky-sandbox.dev/
   - platform: ios
     url: https://apps.apple.com/us/app/bluesky-social/id6444370199
+    language: js
   - platform: android
     url: https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en&gl=US
+    language: js
 links:
   web: https://blueskyweb.xyz/

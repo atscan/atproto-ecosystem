@@ -9,16 +9,19 @@ definitions:
       - ios
       - linux
       - macos
+  language:
+    type: string
+    enum:
+      - js
+      - java
+      - go
+      - rust
 properties:
   id:
     type: string
     pattern: '^[a-z0-9-]+$'
   name:
     type: string
-  platforms:
-    type: array
-    items:
-      $ref: '#/definitions/platform'
   apps:
     type: array
     items:
@@ -27,6 +30,8 @@ properties:
       properties:
         platform:
           $ref: '#/definitions/platform'
+        language:
+          $ref: '#/definitions/language'
         url:
           type: string
           format: url
