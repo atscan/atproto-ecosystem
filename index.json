@@ -1,15 +1,5 @@
 {
   "data": {
-    "federations": [
-      {
-        "id": "bluesky-sandbox",
-        "name": "Bluesky Sandbox"
-      },
-      {
-        "id": "bluesky",
-        "name": "Bluesky"
-      }
-    ],
     "clients": [
       {
         "id": "klearsky",
@@ -22,7 +12,17 @@
           "web": "https://blueskyweb.xyz/"
         }
       }
+    ],
+    "federations": [
+      {
+        "id": "bluesky",
+        "name": "Bluesky"
+      },
+      {
+        "id": "bluesky-sandbox",
+        "name": "Bluesky Sandbox"
+      }
     ]
   },
-  "time": "2023-06-28T06:12:41.339Z"
+  "time": "2023-06-28T06:16:14.962Z"
 }
