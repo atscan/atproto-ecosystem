@@ -16,6 +16,7 @@ definitions:
       - java
       - go
       - rust
+      - kotlin
   links:
     type: object
     additionalProperties: false

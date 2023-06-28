@@ -1,0 +1,10 @@
+name: Moot
+apps:
+  - platform: ios
+    url: https://testflight.apple.com/join/PWzzz0zi
+links:
+  bsky: https://bsky.app/profile/did:plc:3qom5jgzb6ny6ydnlsnmlhmm
+authors:
+  - name: Moot
+    links:
+      bsky: https://bsky.app/profile/did:plc:3qom5jgzb6ny6ydnlsnmlhmm

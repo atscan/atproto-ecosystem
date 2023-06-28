@@ -1,0 +1,19 @@
+name: Graysky
+apps:
+  - platform: android
+    url: https://play.google.com/apps/testing/dev.mozzius.graysky
+    language: js
+  - platform: ios
+    url: https://testflight.apple.com/join/8Q1M4gwt
+    language: js
+links:
+  web: https://graysky.app/
+  git: https://github.com/mozzius/graysky
+  bsky: https://bsky.app/profile/did:plc:sq6aa2wa32tiiqrbub64vcja
+authors:
+  - name: mozzius.dev
+    links:
+      bsky: https://bsky.app/profile/did:plc:p2cp5gopk7mgjegy6wadk3ep
+  - name: alice.bsky.sh
+    links:
+      bsky: https://bsky.app/profile/did:plc:by3jhwdqgbtrcc7q4tkkv3cf

@@ -1,0 +1,11 @@
+name: Seiun
+apps:
+  - platform: android
+    language: kotlin
+    url: https://play.google.com/store/apps/details?id=io.github.akiomik.seiun
+links:
+  git: https://github.com/akiomik/seiun
+authors:
+  - name: omi.bsky.social
+    links:
+      bsky: https://bsky.app/profile/did:plc:j5cxpczcvzajlxhfuq7abivp
