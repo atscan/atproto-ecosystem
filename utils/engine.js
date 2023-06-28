@@ -6,6 +6,7 @@ const DATA_PATH = "./data";
 const SCHEMA_PATH = "./schema";
 const SCHEMA_MAP = {
   clients: "client",
+  federations: "federation",
 };
 
 async function loadYAML(fn) {
