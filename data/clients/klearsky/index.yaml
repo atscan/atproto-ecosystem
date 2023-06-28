@@ -1,1 +1,8 @@
 name: Klearsky
+platforms:
+  - web
+apps:
+  - platform: web
+    url: https://klearsky.pages.dev/
+links:
+  git: https://github.com/mimonelu/klearsky

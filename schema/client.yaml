@@ -1,10 +1,39 @@
 type: object
 additionalProperties: false
+definitions:
+  platform:
+    type: string
+    enum:
+      - web
+      - android
+      - ios
+      - linux
+      - macos
 properties:
   id:
     type: string
     pattern: '^[a-z0-9-]+$'
   name:
     type: string
+  platforms:
+    type: array
+    items:
+      $ref: '#/definitions/platform'
+  apps:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      properties:
+        platform:
+          $ref: '#/definitions/platform'
+        url:
+          type: string
+          format: url
   links:
     type: object
+    additionalProperties: false
+    patternProperties:
+      '^[a-z]+$':
+        type: string
+        format: url
