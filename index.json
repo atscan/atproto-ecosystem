@@ -29,7 +29,15 @@
         ],
         "links": {
           "git": "https://github.com/mimonelu/klearsky"
-        }
+        },
+        "authors": [
+          {
+            "name": "mimonelu.net",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:ilxxgyz7oz7mysber4omeqrg"
+            }
+          }
+        ]
       },
       {
         "id": "bluesky",
@@ -58,8 +66,17 @@
         ],
         "links": {
           "web": "https://blueskyweb.xyz/",
-          "git": "https://github.com/bluesky-social/social-app"
-        }
+          "git": "https://github.com/bluesky-social/social-app",
+          "bsky": "https://bsky.app/profile/bsky.app"
+        },
+        "authors": [
+          {
+            "name": "Bluesky PBLLC",
+            "links": {
+              "bsky": "https://bsky.app/profile/bsky.app"
+            }
+          }
+        ]
       },
       {
         "id": "tokimeki",
@@ -73,7 +90,37 @@
         ],
         "links": {
           "git": "https://github.com/spuithori/tokimekibluesky"
-        }
+        },
+        "authors": [
+          {
+            "name": "holybea",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:hiptcrt4k63szzz4ty3dhwcp"
+            }
+          }
+        ]
+      },
+      {
+        "id": "laika",
+        "name": "Laika",
+        "apps": [
+          {
+            "platform": "web",
+            "url": "https://laika-bluesky.web.app/",
+            "language": "js"
+          }
+        ],
+        "links": {
+          "web": "https://laika-bluesky.web.app/"
+        },
+        "authors": [
+          {
+            "name": "makoto.bsky.social",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:tr5cijtwcpl2dqrtmjsmmcow"
+            }
+          }
+        ]
       }
     ],
     "federations": [
@@ -87,5 +134,5 @@
       }
     ]
   },
-  "time": "2023-06-28T07:36:30.658Z"
+  "time": "2023-06-28T07:54:33.515Z"
 }
