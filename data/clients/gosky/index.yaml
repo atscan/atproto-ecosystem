@@ -1,0 +1,12 @@
+name: gosky
+apps:
+  - platform: cli
+    language: go
+    url: https://github.com/bluesky-social/indigo/tree/main/cmd/gosky
+links:
+  git: https://github.com/bluesky-social/indigo/tree/main/cmd/gosky
+  bsky: https://bsky.app/profile/bsky.app
+authors:
+  - name: Bluesky PBLLC
+    links:
+      bsky: https://bsky.app/profile/bsky.app

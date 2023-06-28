@@ -9,6 +9,7 @@ definitions:
       - ios
       - linux
       - macos
+      - cli
   language:
     type: string
     enum:
@@ -24,6 +25,9 @@ definitions:
       '^[a-z]+$':
         type: string
         format: url
+required:
+  - id
+  - name
 properties:
   id:
     type: string
@@ -48,6 +52,8 @@ properties:
     items:
       type: object
       additionalProperties: false
+      required:
+        - name
       properties:
         name:
           type: string
