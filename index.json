@@ -199,6 +199,29 @@
             }
           }
         ]
+      },
+      {
+        "id": "gosky",
+        "name": "gosky",
+        "apps": [
+          {
+            "platform": "cli",
+            "language": "go",
+            "url": "https://github.com/bluesky-social/indigo/tree/main/cmd/gosky"
+          }
+        ],
+        "links": {
+          "git": "https://github.com/bluesky-social/indigo/tree/main/cmd/gosky",
+          "bsky": "https://bsky.app/profile/bsky.app"
+        },
+        "authors": [
+          {
+            "name": "Bluesky PBLLC",
+            "links": {
+              "bsky": "https://bsky.app/profile/bsky.app"
+            }
+          }
+        ]
       }
     ],
     "federations": [
@@ -212,5 +235,5 @@
       }
     ]
   },
-  "time": "2023-06-28T08:06:56.849Z"
+  "time": "2023-06-28T08:18:07.132Z"
 }
