@@ -18,6 +18,7 @@ definitions:
       - go
       - rust
       - kotlin
+      - swift
   links:
     type: object
     additionalProperties: false
@@ -39,6 +40,8 @@ properties:
     items:
       type: object
       additionalProperties: false
+      required:
+        - platform
       properties:
         platform:
           $ref: '#/definitions/platform'

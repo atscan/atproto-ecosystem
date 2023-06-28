@@ -1,0 +1,8 @@
+name: The Blue
+apps:
+  - platform: web
+    url: https://the-blue.shino3.net/
+authors:
+  - name: shino3.bsky.social
+    links:
+      bsky: https://bsky.app/profile/did:plc:rpwpuzu2yyiuufm3232d7pm5

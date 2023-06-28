@@ -1,0 +1,10 @@
+name: ozone
+apps:
+  - platform: android
+    language: kotlin
+links:
+  git: https://github.com/christiandeange/ozone
+authors:
+  - name: chr.bsky.social
+    links:
+      bsky: https://bsky.app/profile/did:plc:soed46hcvg3l24tshb352cy6

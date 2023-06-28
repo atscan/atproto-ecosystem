@@ -1,0 +1,11 @@
+name: Ucho-ten
+apps:
+  - platform: web
+    url: https://ucho-ten.net/
+authors:
+  - name: bisn.ucho-ten.net
+    links:
+      bsky: https://bsky.app/profile/did:plc:txandrhc7afdozk6a2itgltm
+  - name: hota1024.com
+    links:
+      bsky: https://bsky.app/profile/did:plc:qhnfzuuv33o7gggw6mmu2ks4

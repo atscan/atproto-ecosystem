@@ -1,0 +1,11 @@
+name: swiftsky
+apps:
+  - platform: macos
+    language: swift
+    url: https://github.com/rmcan/swiftsky/releases/tag/v0.0.6
+links:
+  git: https://github.com/rmcan/swiftsky
+authors:
+  - name: can.bsky.social
+    links:
+      bsky: https://bsky.app/profile/did:plc:oaerst6hznvwkeqtar5dtqry
