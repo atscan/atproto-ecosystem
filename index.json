@@ -1,13 +1,64 @@
 {
   "data": {
+    "implementations": [
+      {
+        "id": "atproto",
+        "name": "atproto",
+        "links": {
+          "git": "https://github.com/bluesky-social/atproto"
+        }
+      },
+      {
+        "id": "indigo",
+        "name": "indigo",
+        "links": {
+          "git": "https://github.com/bluesky-social/indigo"
+        }
+      }
+    ],
     "clients": [
       {
         "id": "klearsky",
-        "name": "Klearsky"
+        "name": "Klearsky",
+        "platforms": [
+          "web"
+        ],
+        "apps": [
+          {
+            "platform": "web",
+            "url": "https://klearsky.pages.dev/"
+          }
+        ],
+        "links": {
+          "git": "https://github.com/mimonelu/klearsky"
+        }
       },
       {
         "id": "bluesky",
         "name": "Bluesky",
+        "platforms": [
+          "web",
+          "ios",
+          "android"
+        ],
+        "apps": [
+          {
+            "platform": "web",
+            "url": "https://bsky.app/"
+          },
+          {
+            "platform": "web",
+            "url": "https://app.bsky-sandbox.dev/"
+          },
+          {
+            "platform": "ios",
+            "url": "https://apps.apple.com/us/app/bluesky-social/id6444370199"
+          },
+          {
+            "platform": "android",
+            "url": "https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en&gl=US"
+          }
+        ],
         "links": {
           "web": "https://blueskyweb.xyz/"
         }
@@ -24,5 +75,5 @@
       }
     ]
   },
-  "time": "2023-06-28T06:23:58.155Z"
+  "time": "2023-06-28T07:16:41.836Z"
 }
