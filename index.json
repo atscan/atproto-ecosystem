@@ -20,13 +20,11 @@
       {
         "id": "klearsky",
         "name": "Klearsky",
-        "platforms": [
-          "web"
-        ],
         "apps": [
           {
             "platform": "web",
-            "url": "https://klearsky.pages.dev/"
+            "url": "https://klearsky.pages.dev/",
+            "language": "js"
           }
         ],
         "links": {
@@ -36,31 +34,44 @@
       {
         "id": "bluesky",
         "name": "Bluesky",
-        "platforms": [
-          "web",
-          "ios",
-          "android"
-        ],
         "apps": [
           {
             "platform": "web",
+            "language": "js",
             "url": "https://bsky.app/"
           },
           {
             "platform": "web",
+            "language": "js",
             "url": "https://app.bsky-sandbox.dev/"
           },
           {
             "platform": "ios",
-            "url": "https://apps.apple.com/us/app/bluesky-social/id6444370199"
+            "url": "https://apps.apple.com/us/app/bluesky-social/id6444370199",
+            "language": "js"
           },
           {
             "platform": "android",
-            "url": "https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en&gl=US"
+            "url": "https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en&gl=US",
+            "language": "js"
           }
         ],
         "links": {
           "web": "https://blueskyweb.xyz/"
+        }
+      },
+      {
+        "id": "tokimeki",
+        "name": "Tokimeki",
+        "apps": [
+          {
+            "platform": "web",
+            "language": "js",
+            "url": "https://tokimekibluesky.vercel.app/"
+          }
+        ],
+        "links": {
+          "git": "https://github.com/spuithori/tokimekibluesky"
         }
       }
     ],
@@ -75,5 +86,5 @@
       }
     ]
   },
-  "time": "2023-06-28T07:16:41.836Z"
+  "time": "2023-06-28T07:29:48.776Z"
 }
