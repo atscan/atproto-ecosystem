@@ -18,6 +18,63 @@
     ],
     "clients": [
       {
+        "id": "the-blue",
+        "name": "The Blue",
+        "apps": [
+          {
+            "platform": "web",
+            "url": "https://the-blue.shino3.net/"
+          }
+        ],
+        "authors": [
+          {
+            "name": "shino3.bsky.social",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:rpwpuzu2yyiuufm3232d7pm5"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ozone",
+        "name": "ozone",
+        "apps": [
+          {
+            "platform": "android",
+            "language": "kotlin"
+          }
+        ],
+        "links": {
+          "git": "https://github.com/christiandeange/ozone"
+        },
+        "authors": [
+          {
+            "name": "chr.bsky.social",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:soed46hcvg3l24tshb352cy6"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skylight",
+        "name": "Skylight",
+        "apps": [
+          {
+            "platform": "web",
+            "url": "https://penpenpng.github.io/skylight/#/login"
+          }
+        ],
+        "authors": [
+          {
+            "name": "penpenpng.bsky.social",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:ahj2yuo63gaxyhbgn5ai6jt2"
+            }
+          }
+        ]
+      },
+      {
         "id": "klearsky",
         "name": "Klearsky",
         "apps": [
@@ -179,6 +236,30 @@
         ]
       },
       {
+        "id": "ucho-ten",
+        "name": "Ucho-ten",
+        "apps": [
+          {
+            "platform": "web",
+            "url": "https://ucho-ten.net/"
+          }
+        ],
+        "authors": [
+          {
+            "name": "bisn.ucho-ten.net",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:txandrhc7afdozk6a2itgltm"
+            }
+          },
+          {
+            "name": "hota1024.com",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:qhnfzuuv33o7gggw6mmu2ks4"
+            }
+          }
+        ]
+      },
+      {
         "id": "laika",
         "name": "Laika",
         "apps": [
@@ -196,6 +277,28 @@
             "name": "makoto.bsky.social",
             "links": {
               "bsky": "https://bsky.app/profile/did:plc:tr5cijtwcpl2dqrtmjsmmcow"
+            }
+          }
+        ]
+      },
+      {
+        "id": "swiftsky",
+        "name": "swiftsky",
+        "apps": [
+          {
+            "platform": "macos",
+            "language": "swift",
+            "url": "https://github.com/rmcan/swiftsky/releases/tag/v0.0.6"
+          }
+        ],
+        "links": {
+          "git": "https://github.com/rmcan/swiftsky"
+        },
+        "authors": [
+          {
+            "name": "can.bsky.social",
+            "links": {
+              "bsky": "https://bsky.app/profile/did:plc:oaerst6hznvwkeqtar5dtqry"
             }
           }
         ]
@@ -235,5 +338,5 @@
       }
     ]
   },
-  "time": "2023-06-28T08:18:07.132Z"
+  "time": "2023-06-28T08:31:37.943Z"
 }
