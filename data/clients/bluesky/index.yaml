@@ -15,3 +15,8 @@ apps:
 links:
   web: https://blueskyweb.xyz/
   git: https://github.com/bluesky-social/social-app
+  bsky: https://bsky.app/profile/bsky.app
+authors:
+  - name: Bluesky PBLLC
+    links:
+      bsky: https://bsky.app/profile/bsky.app

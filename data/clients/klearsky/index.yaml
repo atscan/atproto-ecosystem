@@ -5,3 +5,7 @@ apps:
     language: js
 links:
   git: https://github.com/mimonelu/klearsky
+authors:
+  - name: mimonelu.net
+    links:
+      bsky: https://bsky.app/profile/did:plc:ilxxgyz7oz7mysber4omeqrg

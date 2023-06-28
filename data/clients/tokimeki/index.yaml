@@ -5,3 +5,7 @@ apps:
     url: https://tokimekibluesky.vercel.app/
 links:
   git: https://github.com/spuithori/tokimekibluesky
+authors:
+  - name: holybea
+    links:
+      bsky: https://bsky.app/profile/did:plc:hiptcrt4k63szzz4ty3dhwcp

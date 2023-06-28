@@ -1,0 +1,11 @@
+name: Laika
+apps:
+  - platform: web
+    url: https://laika-bluesky.web.app/
+    language: js
+links:
+  web: https://laika-bluesky.web.app/
+authors:
+  - name: makoto.bsky.social
+    links:
+      bsky: https://bsky.app/profile/did:plc:tr5cijtwcpl2dqrtmjsmmcow

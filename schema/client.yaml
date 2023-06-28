@@ -16,6 +16,13 @@ definitions:
       - java
       - go
       - rust
+  links:
+    type: object
+    additionalProperties: false
+    patternProperties:
+      '^[a-z]+$':
+        type: string
+        format: url
 properties:
   id:
     type: string
@@ -35,10 +42,15 @@ properties:
         url:
           type: string
           format: url
+  authors:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      properties:
+        name:
+          type: string
+        links:
+          $ref: '#/definitions/links'
   links:
-    type: object
-    additionalProperties: false
-    patternProperties:
-      '^[a-z]+$':
-        type: string
-        format: url
+    $ref: '#/definitions/links'
