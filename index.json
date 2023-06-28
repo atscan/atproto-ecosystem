@@ -329,14 +329,16 @@
     ],
     "federations": [
       {
-        "id": "bluesky",
-        "name": "Bluesky"
+        "id": "sandbox",
+        "name": "Bluesky Sandbox",
+        "plc": "https://plc.bsky-sandbox.dev"
       },
       {
-        "id": "bluesky-sandbox",
-        "name": "Bluesky Sandbox"
+        "id": "bluesky",
+        "name": "Bluesky",
+        "plc": "https://plc.directory"
       }
     ]
   },
-  "time": "2023-06-28T08:31:37.943Z"
+  "time": "2023-06-28T10:03:01.700Z"
 }
