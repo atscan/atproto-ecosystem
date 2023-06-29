@@ -29,5 +29,8 @@ properties:
   pds:
     type: string
     format: url
+  app:
+    type: string
+    format: url
   links:
     $ref: '#/definitions/links'

@@ -2,5 +2,6 @@ name: Bluesky Sandbox
 plc: https://plc.bsky-sandbox.dev
 bgs: https://bgs.bsky-sandbox.dev
 appview: https://api.bsky-sandbox.dev
+app: https://app.bsky-sandbox.dev
 links:
   web: https://bsky-sandbox.dev/
