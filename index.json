@@ -348,6 +348,7 @@
         "plc": "https://plc.bsky-sandbox.dev",
         "bgs": "https://bgs.bsky-sandbox.dev",
         "appview": "https://api.bsky-sandbox.dev",
+        "app": "https://app.bsky-sandbox.dev",
         "links": {
           "web": "https://bsky-sandbox.dev/"
         }
@@ -359,11 +360,12 @@
         "bgs": "https://bsky.social",
         "appview": "https://bsky.social",
         "pds": "https://bsky.social",
+        "app": "https://app.bsky-sandbox.dev",
         "links": {
           "web": "https://blueskyweb.xyz/"
         }
       }
     ]
   },
-  "time": "2023-06-29T04:59:31.655Z"
+  "time": "2023-06-29T08:11:40.894Z"
 }
