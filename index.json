@@ -360,12 +360,12 @@
         "bgs": "https://bsky.social",
         "appview": "https://bsky.social",
         "pds": "https://bsky.social",
-        "app": "https://app.bsky-sandbox.dev",
+        "app": "https://bsky.app",
         "links": {
           "web": "https://blueskyweb.xyz/"
         }
       }
     ]
   },
-  "time": "2023-06-29T08:11:40.894Z"
+  "time": "2023-06-29T08:20:22.188Z"
 }
