@@ -1,5 +1,19 @@
 {
   "data": {
+    "plc-directories": [
+      {
+        "id": "sandbox-plc",
+        "name": "Sandbox PLC Directory",
+        "url": "https://plc.bsky-sandbox.dev",
+        "federation": "sandbox"
+      },
+      {
+        "id": "bluesky-plc",
+        "name": "Bluesky PLC Directory",
+        "url": "https://plc.directory",
+        "federation": "bluesky"
+      }
+    ],
     "implementations": [
       {
         "id": "atproto",
@@ -340,5 +354,5 @@
       }
     ]
   },
-  "time": "2023-06-28T10:03:01.700Z"
+  "time": "2023-06-29T03:25:37.674Z"
 }
