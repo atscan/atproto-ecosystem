@@ -345,14 +345,25 @@
       {
         "id": "sandbox",
         "name": "Bluesky Sandbox",
-        "plc": "https://plc.bsky-sandbox.dev"
+        "plc": "https://plc.bsky-sandbox.dev",
+        "bgs": "https://bgs.bsky-sandbox.dev",
+        "appview": "https://api.bsky-sandbox.dev",
+        "links": {
+          "web": "https://bsky-sandbox.dev/"
+        }
       },
       {
         "id": "bluesky",
         "name": "Bluesky",
-        "plc": "https://plc.directory"
+        "plc": "https://plc.directory",
+        "bgs": "https://bsky.social",
+        "appview": "https://bsky.social",
+        "pds": "https://bsky.social",
+        "links": {
+          "web": "https://blueskyweb.xyz/"
+        }
       }
     ]
   },
-  "time": "2023-06-29T03:45:30.453Z"
+  "time": "2023-06-29T04:59:31.655Z"
 }
