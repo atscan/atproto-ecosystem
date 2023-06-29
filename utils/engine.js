@@ -7,6 +7,7 @@ const SCHEMA_PATH = "./schema";
 const SCHEMA_MAP = {
   clients: "client",
   federations: "federation",
+  'plc-directories': 'plc-directory',
 };
 
 async function loadYAML(fn) {
@@ -51,7 +52,7 @@ export class Engine {
   async schemas() {
     if (Object.keys(this.schemasData).length === 0) {
       for await (const sf of Deno.readDir(SCHEMA_PATH)) {
-        const name = sf.name.match(/^(\w+)\./)[1];
+        const name = sf.name.match(/^([\w-]+)\./)[1];
         const schema = await loadYAML(join(SCHEMA_PATH, sf.name));
         this.schemasData[name] = schema;
       }
