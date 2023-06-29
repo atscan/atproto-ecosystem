@@ -1,6 +1,11 @@
-type: object
-additionalProperties: false
 definitions:
+  links:
+    type: object
+    additionalProperties: false
+    patternProperties:
+      '^[a-z]+$':
+        type: string
+        format: url
   platform:
     type: string
     enum:
@@ -19,13 +24,8 @@ definitions:
       - rust
       - kotlin
       - swift
-  links:
-    type: object
-    additionalProperties: false
-    patternProperties:
-      '^[a-z]+$':
-        type: string
-        format: url
+type: object
+additionalProperties: false
 required:
   - id
   - name

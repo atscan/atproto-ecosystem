@@ -1,5 +1,18 @@
+definitions:
+  links:
+    type: object
+    additionalProperties: false
+    patternProperties:
+      '^[a-z]+$':
+        type: string
+        format: url
 type: object
 additionalProperties: false
+required:
+  - id
+  - name
+  - url
+  - federation
 properties:
   id:
     type: string
@@ -11,3 +24,5 @@ properties:
     format: url
   federation:
     type: string
+  links:
+    $ref: '#/definitions/links'
