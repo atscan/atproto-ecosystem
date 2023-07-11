@@ -8,6 +8,7 @@ const SCHEMA_MAP = {
   clients: "client",
   federations: "federation",
   'plc-directories': 'plc-directory',
+  'bgs-instances': 'bgs-instance',
 };
 
 async function loadYAML(fn) {
